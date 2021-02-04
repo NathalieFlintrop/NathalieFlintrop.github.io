@@ -220,7 +220,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/portfolio/achtergrond kleiner.PNG") top center;
   background-size: cover;
-  background-position-x: 220px;
+  background-position-x: 40%;
+  background-position-y: 30%
 }
 
 #hero:before {
@@ -395,7 +396,7 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #372947;
 }
 
 /*--------------------------------------------------------------
@@ -465,7 +466,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #e9e4f9;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -493,7 +494,7 @@ section {
   left: -9px;
   top: 0;
   background: #dbdbdb;
-  border: 2px solid #1f5297;
+  border: 2px solid #372947;
 }
 
 /*--------------------------------------------------------------
@@ -1069,7 +1070,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 5px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -1082,12 +1083,13 @@ section {
 
 #footer .copyright {
   text-align: center;
+  font-size: 10px;
 }
 
 #footer .credits {
   padding-top: 5px;
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #eaebf0;
 }
 
@@ -1096,5 +1098,6 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+    font-size: 10px;
   }
 }
