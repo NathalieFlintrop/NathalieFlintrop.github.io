@@ -289,10 +289,6 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
-  background: #f5f8fd;
-}
-
 .section-title {
   padding-bottom: 30px;
 }
@@ -745,6 +741,25 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Teaching
+--------------------------------------------------------------*/
+
+.teaching .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.teaching .content ul li {
+  padding-bottom: 10px;
+}
+
+.teaching .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #9B68C4;
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact {
@@ -764,7 +779,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #efe9f5;
   display: flex;
   justify-content: center;
   align-items: center;
