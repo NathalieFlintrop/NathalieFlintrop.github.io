@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .nav-menu * {
@@ -159,8 +159,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
-  margin-bottom: 8px;
+  padding: 10px 15px;
+  margin-bottom: 0px;
   transition: 0.3s;
   font-size: 15px;
 }
@@ -494,8 +494,44 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Teaching
+--------------------------------------------------------------*/
+
+.teaching .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.teaching .content ul li {
+  padding-bottom: 10px;
+}
+
+.teaching .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #9B68C4;
+}
+
+#teaching {
+  background-color: #efe9f5;
+}
+
+
+/*--------------------------------------------------------------
+# Agenda
+--------------------------------------------------------------*/
+#agenda .container h5 {
+  color: #9B68C4;
+}
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+#portfolio {
+  background-color: #efe9f5;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -565,15 +601,16 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #9B68C4;
   transition: 0.3s;
-  width: 50%;
+  width: 20%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  color: #9B68C4;
+  background: #fff;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -585,7 +622,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -740,24 +777,6 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Teaching
---------------------------------------------------------------*/
-
-.teaching .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.teaching .content ul li {
-  padding-bottom: 10px;
-}
-
-.teaching .content ul i {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #9B68C4;
-}
 
 /*--------------------------------------------------------------
 # Contact
@@ -768,7 +787,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #dbdbdb;
+  background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
