@@ -37,6 +37,20 @@ h6 {
   }
 }
 
+/*--- read more  ---*/
+#more {
+  display: none;
+}
+
+.agenda button {
+  background: #9B68C4;
+  border: 0;
+  padding: 10px 24px;
+  color: #9B68C4;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
